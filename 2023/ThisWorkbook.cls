@@ -10,7 +10,7 @@ Attribute VB_Exposed = True
 Option Explicit
 'workbook Open Start
 Private Sub Workbook_Open()
-    Pwd = "ÐÀóó÷°òäi@"
+    Pwd = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½i@"
     Call Initialize
     checkOfficeVersion
     
@@ -211,8 +211,8 @@ End Sub
 
 'Right Click Disable Start
 Private Sub Workbook_SheetBeforeRightClick(ByVal Sh As Object, ByVal Target As Range, Cancel As Boolean)
-   Cancel = True
-   MsgBox "Right clicking any where is disabled for  the workbook"
+'    Cancel = True
+'    MsgBox "Right clicking any where is disabled for  the workbook"
 End Sub
 'Right Click Disable End
 
